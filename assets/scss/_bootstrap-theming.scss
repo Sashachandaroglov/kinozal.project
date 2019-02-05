@@ -27,7 +27,7 @@
 
 }
  .navbar-left li {
-    margin: 5px 0 5px 5px;
+    margin: 5px  5px 5px 0;
  }
 
 .navbar-right li {
@@ -40,8 +40,6 @@
     background-color: #df8a13;
 
 }
-
-
 
 .panel {
     margin-bottom: 30px;
@@ -81,4 +79,8 @@
     background-color: lighten($gray-color, 8%);
  }
 }
+
+
+
+
 

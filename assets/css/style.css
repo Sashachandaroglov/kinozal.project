@@ -24,7 +24,7 @@
 }
 
 .navbar-left li {
-  margin: 5px 0 5px 5px;
+  margin: 5px  5px 5px 0;
 }
 
 .navbar-right li {
@@ -161,6 +161,14 @@ section {
   overflow: hidden;
 }
 
+.film-news .btn-warning {
+  float: right;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
 .header-logo {
   padding: 100px 20px;
   text-align: center;
@@ -247,8 +255,8 @@ section {
   text-overflow: ellipsis;
 }
 
-.new-films-item .tumbnail,
-.top-week-item .tumbnail {
+.new-films-item .thumbnail,
+.top-week-item .thumbnail {
   -webkit-transition: background-color 0.25s ease;
   -o-transition: background-color 0.25s ease;
   transition: background-color 0.25s ease;
@@ -259,45 +267,45 @@ section {
   text-align: center;
 }
 
-.film-new img {
-  widows: 100%;
+.film-news img {
+  width: 100%;
 }
 
-.film-new-item:hover .thumbnail {
+.film-news-item:hover .thumbnail {
   background-color: #f0ad4e;
 }
 
-.film-new-item:hover h3 > a {
+.film-news-item:hover h3 > a {
   color: #df8a13;
 }
 
-.film-new-item:hover .btn-warning {
-  backgond-color: #df8a13;
+.film-news-item:hover .btn-warning {
+  background-color: #df8a13;
 }
 
-.film-new-item__text {
+.film-news-item__text {
   text-align: justify;
 }
 
-.film-new h3 > a {
+.film-news h3 > a {
   -webkit-transition: color 0.25s ease;
   -o-transition: color 0.25s ease;
   transition: color 0.25s ease;
 }
 
-.film-new .thumbnail {
+.film-news .thumbnail {
   margin-bottom: 0;
   -webkit-transition: background-color 0.25s ease;
   -o-transition: background-color 0.25s ease;
   transition: background-color 0.25s ease;
 }
 
-.film-new .btn-warning {
+.film-news .btn-warning {
   float: right;
   margin-bottom: 30px;
-  -webkit-transition: background-color 2.25s ease;
-  -o-transition: background-color 2.25s ease;
-  transition: background-color 2.25s ease;
+  -webkit-transition: background-color 0.25s ease;
+  -o-transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease;
 }
 
 .film-info {
@@ -319,7 +327,7 @@ section {
   border-top-right-radius: 0;
 }
 
-.film0send-comment .btn {
+.film-send-comment .btn {
   float: right;
 }
 
